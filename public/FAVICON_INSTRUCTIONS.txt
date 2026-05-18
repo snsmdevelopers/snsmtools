@@ -1,0 +1,27 @@
+FAVICON SETUP INSTRUCTIONS
+==========================
+
+1. Go to https://favicon.io/favicon-generator/
+2. Use text: "ST"
+3. Background: Rounded
+4. Background colour: #0F6E56  (teal-600)
+5. Font colour: #FFFFFF
+6. Font size: 110
+7. Click "Generate"
+8. Download the ZIP file
+
+9. Extract and copy these files into this /public folder:
+   - favicon.ico
+   - favicon-16x16.png
+   - favicon-32x32.png
+   - apple-touch-icon.png
+   - site.webmanifest  (optional)
+
+10. Then update src/app/layout.tsx metadata to add:
+    icons: {
+      icon: '/favicon.ico',
+      shortcut: '/favicon-32x32.png',
+      apple: '/apple-touch-icon.png',
+    },
+
+Done! Your favicon will show in all browsers and on mobile home screens.

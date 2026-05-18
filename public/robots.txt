@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /api/
+
+# Host
+Host: https://snsmtools.in
+
+# Sitemaps
+Sitemap: https://snsmtools.in/sitemap.xml
