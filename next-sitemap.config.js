@@ -2,16 +2,14 @@
 module.exports = {
   siteUrl: "https://snsmtools.in",
   generateRobotsTxt: true,
+  generateIndexSitemap: false,
   sitemapSize: 7000,
   changefreq: "weekly",
-  priority: 0.7,
-  exclude: ["/api/*"],
   robotsTxtOptions: {
     policies: [
       { userAgent: "*", allow: "/" },
       { userAgent: "*", disallow: "/api/" },
     ],
-    additionalSitemaps: ["https://snsmtools.in/sitemap.xml"],
   },
   transform: async (config, path) => {
     const priorities = {
@@ -26,6 +24,9 @@ module.exports = {
       "/calculators/ppf-calculator": 0.85,
       "/calculators/age-calculator": 0.9,
       "/blog": 0.8,
+      "/blog/how-to-calculate-emi-home-loan": 0.75,
+      "/blog/sip-vs-lump-sum-investment": 0.75,
+      "/blog/new-vs-old-tax-regime-2024-25": 0.75,
       "/about": 0.6,
       "/contact": 0.5,
       "/privacy": 0.4,
