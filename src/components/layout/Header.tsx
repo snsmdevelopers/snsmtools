@@ -142,6 +142,16 @@ export default function Header() {
           <Link href="/blog" className={navLink("/blog")}>
             Blog
           </Link>
+          <Link
+            href="/tamil"
+            className={`text-sm font-medium transition-colors px-3 py-2 rounded-lg hover:text-teal-600 hover:bg-teal-50 dark:hover:bg-teal-900/20 ${
+              pathname.startsWith("/tamil")
+                ? "text-teal-600"
+                : "text-gray-600 dark:text-gray-300"
+            }`}
+          >
+            தமிழ்
+          </Link>
           <Link href="/about" className={navLink("/about")}>
             About
           </Link>
@@ -225,6 +235,14 @@ export default function Header() {
               }`}
             >
               Blog
+            </Link>
+            <Link
+              href="/tamil"
+              className={`flex items-center rounded-lg px-3 py-2.5 text-sm font-medium transition-colors hover:bg-teal-50 hover:text-teal-600 dark:hover:bg-teal-900/20 ${
+                pathname.startsWith("/tamil") ? "text-teal-600" : "text-gray-700 dark:text-gray-300"
+              }`}
+            >
+              தமிழ்
             </Link>
             <Link
               href="/about"

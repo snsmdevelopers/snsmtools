@@ -24,7 +24,7 @@ export default function Footer() {
     <footer className="border-t border-gray-200 bg-gray-50 dark:border-gray-800 dark:bg-gray-900">
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
         {/* Three columns */}
-        <div className="grid grid-cols-1 gap-10 sm:grid-cols-3">
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Column 1 — Brand */}
           <div>
             <Link
@@ -61,7 +61,30 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3 — Company */}
+          {/* Column 3 — Tamil */}
+          <div>
+            <h3 className="mb-4 text-sm font-semibold text-gray-900 dark:text-white">
+              தமிழில்
+            </h3>
+            <ul className="space-y-2">
+              {[
+                { name: "EMI கணக்கீடு", href: "/tamil/emi-calculator" },
+                { name: "SIP கணக்கீடு", href: "/tamil/sip-calculator" },
+                { name: "வயது கணக்கீடு", href: "/tamil/age-calculator" },
+              ].map((item) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className="text-sm text-gray-500 transition-colors hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Column 4 — Company */}
           <div>
             <h3 className="mb-4 text-sm font-semibold text-gray-900 dark:text-white">
               Company
