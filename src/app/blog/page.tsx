@@ -11,6 +11,16 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "home-loan-vs-rent-2025",
+    category: "Real Estate",
+    categoryColor: "bg-orange-50 text-orange-700 dark:bg-orange-950/50 dark:text-orange-300",
+    title: "Home Loan vs Rent — Which is Better in 2025?",
+    excerpt:
+      "Planning to buy a home in 2025? We compare the real costs of home loan EMI vs renting across Indian cities and help you make the right decision.",
+    readTime: "8 min read",
+    publishDate: "May 2025",
+  },
+  {
     slug: "how-to-calculate-emi-home-loan",
     category: "Loans",
     categoryColor: "bg-blue-50 text-blue-700 dark:bg-blue-950/50 dark:text-blue-300",
