@@ -11,6 +11,16 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "save-tax-10-lakh-salary",
+    category: "Tax Planning",
+    categoryColor: "bg-purple-50 text-purple-700 dark:bg-purple-950/50 dark:text-purple-300",
+    title: "How to Save ₹1 Lakh Tax on ₹10 Lakh Salary in FY 2024-25",
+    excerpt:
+      "Without tax planning, a ₹10 lakh salary can attract over ₹1 lakh in tax. Learn every legal deduction available — 80C, 80D, HRA, NPS — and pay almost zero tax.",
+    readTime: "9 min read",
+    publishDate: "May 2025",
+  },
+  {
     slug: "home-loan-vs-rent-2025",
     category: "Real Estate",
     categoryColor: "bg-orange-50 text-orange-700 dark:bg-orange-950/50 dark:text-orange-300",
