@@ -11,6 +11,16 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "sip-2000-per-month-10-lakh",
+    category: "Investments",
+    categoryColor: "bg-green-50 text-green-700 dark:bg-green-950/50 dark:text-green-300",
+    title: "How ₹2000 SIP Per Month Becomes ₹10 Lakh — Real Numbers",
+    excerpt:
+      "See exactly how ₹2,000 per month grows to ₹10 lakh and beyond through SIP. Real calculations for 5, 10, 15, 20 and 25 years with step-up SIP strategy explained.",
+    readTime: "7 min read",
+    publishDate: "May 2025",
+  },
+  {
     slug: "income-tax-freelancers-india",
     category: "Tax Planning",
     categoryColor: "bg-purple-50 text-purple-700 dark:bg-purple-950/50 dark:text-purple-300",
