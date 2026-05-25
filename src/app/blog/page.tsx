@@ -11,6 +11,16 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "home-loan-eligibility-india",
+    category: "Home Loans",
+    categoryColor: "bg-blue-50 text-blue-700 dark:bg-blue-950/50 dark:text-blue-300",
+    title: "Home Loan Eligibility in India 2025 — How Banks Decide",
+    excerpt:
+      "How do Indian banks calculate your home loan eligibility? Learn about FOIR, CIBIL score, income multiplier method and 5 proven ways to maximize your loan amount.",
+    readTime: "8 min read",
+    publishDate: "May 2025",
+  },
+  {
     slug: "ppf-vs-fd-vs-sip",
     category: "Investments",
     categoryColor: "bg-green-50 text-green-700 dark:bg-green-950/50 dark:text-green-300",
