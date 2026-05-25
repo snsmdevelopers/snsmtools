@@ -11,6 +11,16 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "ppf-vs-fd-vs-sip",
+    category: "Investments",
+    categoryColor: "bg-green-50 text-green-700 dark:bg-green-950/50 dark:text-green-300",
+    title: "PPF vs FD vs SIP — Where Should You Invest in 2025?",
+    excerpt:
+      "PPF, FD, or SIP — which investment gives the best returns in 2025? We compare safety, returns, tax benefits, and liquidity to help you choose the right option.",
+    readTime: "8 min read",
+    publishDate: "May 2025",
+  },
+  {
     slug: "best-fd-rates-india-2025",
     category: "Fixed Deposits",
     categoryColor: "bg-blue-50 text-blue-700 dark:bg-blue-950/50 dark:text-blue-300",
