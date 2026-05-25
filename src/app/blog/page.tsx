@@ -11,6 +11,16 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "income-tax-freelancers-india",
+    category: "Tax Planning",
+    categoryColor: "bg-purple-50 text-purple-700 dark:bg-purple-950/50 dark:text-purple-300",
+    title: "Income Tax for Freelancers in India 2024-25 — Complete Guide",
+    excerpt:
+      "Freelancing in India? Learn which ITR to file, how Section 44ADA saves you tax, advance tax deadlines, GST requirements, and every deduction available to freelancers.",
+    readTime: "10 min read",
+    publishDate: "May 2025",
+  },
+  {
     slug: "home-loan-eligibility-india",
     category: "Home Loans",
     categoryColor: "bg-blue-50 text-blue-700 dark:bg-blue-950/50 dark:text-blue-300",
