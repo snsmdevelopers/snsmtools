@@ -11,6 +11,16 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "best-fd-rates-india-2025",
+    category: "Fixed Deposits",
+    categoryColor: "bg-blue-50 text-blue-700 dark:bg-blue-950/50 dark:text-blue-300",
+    title: "Best FD Rates in India 2025 — SBI vs HDFC vs ICICI vs Post Office",
+    excerpt:
+      "Compare fixed deposit interest rates across all major Indian banks for 2025. Find the highest FD rate for your tenure and maximize your savings.",
+    readTime: "7 min read",
+    publishDate: "May 2025",
+  },
+  {
     slug: "save-tax-10-lakh-salary",
     category: "Tax Planning",
     categoryColor: "bg-purple-50 text-purple-700 dark:bg-purple-950/50 dark:text-purple-300",
