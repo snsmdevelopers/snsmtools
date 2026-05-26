@@ -34,6 +34,9 @@ export const metadata: Metadata = {
     "free finance tools india",
   ],
   metadataBase: new URL("https://snsmtools.in"),
+  alternates: {
+    canonical: "https://snsmtools.in",
+  },
   openGraph: {
     title: "SNSM Tools — Free Finance Calculators for India",
     description:
