@@ -2,16 +2,6 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   trailingSlash: false,
-  async redirects() {
-    return [
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "www.snsmtools.in" }],
-        destination: "https://snsmtools.in/:path*",
-        permanent: true,
-      },
-    ];
-  },
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "**" },
